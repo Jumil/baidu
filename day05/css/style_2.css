@@ -1,0 +1,18 @@
+h4 ,p {
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: blue;
+}
+.container h1{
+	width: 196px;
+	height: 870px;
+	background-color: #65a5f5;
+	color: #fff;
+	font-size: 36px;
+	float: left;
+	margin: 0 22px;
+	text-align: center;
+	padding-top: 70px;
+}

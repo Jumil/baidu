@@ -1,0 +1,11 @@
+strong{
+    margin-right: 10px;
+}
+.BaseInfo span,.contact span{
+    margin-right: 40px;     
+}
+h4 ,p {
+	margin: 0;
+	padding: 0;
+}
+
