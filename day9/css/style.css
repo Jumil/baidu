@@ -1,0 +1,65 @@
+  	body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+    body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;} 
+    a{color:#2d374b;text-decoration:none} 
+    a:hover{color:#cd0200;text-decoration:underline} 
+    em{font-style:normal} 
+    li{list-style:none} 
+    img{border:0;vertical-align:middle} 
+    table{border-collapse:collapse;border-spacing:0} 
+    p{word-wrap:break-word}
+
+/* header */
+.header{
+	height:990px;
+	width:100%;
+	overflow: hidden;
+	background-size:cover;
+	background: url(../img/bg1.png) no-repeat;
+	background-position: center center;
+}
+.header-container{
+	width: 970px;
+	margin:0 auto;
+}
+.header-container .slogan{
+	margin-top: 205px;
+	margin-bottom: 100px;
+}
+.header-container .slogan h1{
+	font-size: 62px;
+	color:#fff;
+	font-family: "PingFang SC";
+	text-align: center;
+	margin-bottom: 84px;
+}
+.header-container .slogan p{
+	margin:0 auto;
+	width: 775px;
+	font-size: 20px;
+	opacity: 0.7;
+	color: #fff;
+	font-family: "PingFang SC";
+	text-align: center;
+}
+.header-container .account{
+	width: 970px;
+	margin: 0 auto;
+	height: 255px;
+	border:1px solid rgba(86,84,81,0.5);
+}
+.header-container .account .txt{
+	text-align: center;
+	padding-top: 52px;
+}
+.header-container .account .txt h4{
+	font-size: 16px;
+	color: #fff;
+	font-family: "PingFang SC"
+}
+.header-container .account .txt p{
+	font-size: 12px;
+	color: #fff;
+	opacity: 0.3;
+	font-family: "PingFang SC";
+	margin-top: 20px;
+}
