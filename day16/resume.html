@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>resume</title>
+	<style>
+		.title{text-align:left; font-size:46px;}
+		.name{color:#374760;font-size:30px;}
+		.experience{border-left:1px solid #999;padding-left:20px;margin-left:20px;}
+		.sex,.age,.city{margin:auto 8px;}
+		.date span{margin:auto 10px;}
+	</style>
+</head>
+<body>
+	<h1 class="title">简历</h1>
+	<h3 class="name">潘荣</h3>
+	<div class="baseinfo">
+	  <span class="sex">男</span>
+	  <span class="age">56岁</span>
+	  <span class="city">南宁</span>
+	  <span class="experience">n年以上工作经验</span>
+	</div>
+	<div class="work">
+	  <h3>工作经历</h3>
+	  <p id="mywork"></p>
+	</div>
+	<button value="" onclick="work()">点击看看我的工作</button>
+	<script>
+		var demo = document.getElementById("mywork")
+		function work(){
+		  demo.innerHTML = "打工这方面，打工是不可能打工的，这辈子不可能打工的";
+		}
+	</script>
+
+</body>
+</html>
